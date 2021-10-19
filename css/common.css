@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+}
+/* bonus */
+html {
+    scroll-behavior: smooth;
+}
+ /* bonus */
+
+body {
+  background-color: #fff;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4e3939;
+  
+}
+    
+.pulsante {
+    background-color: #ee7560;
+    border: 2px #ee7560 solid;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+}
+.pulsante:hover {
+    background-color: #fff;
+    color: #ee7560;
+}
+/* HEADER */
+header {
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+header img {
+    display: block;
+    margin: 0 auto;
+}
+/* HEADER */
+
+/* HERO */
+#hero {
+    background-color: #eeeeee;    
+} 
+#hero img {
+    width: 100%;
+    height: auto;  
+}    
+/* /HERO */
+
+
+/* TESTO */
+#testo {
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 100px 50px;
+    text-align: center;
+}
+#testo h1 {
+    font-size: 50px;
+    line-height: 70px;
+    padding: 0 0 20px 0;
+    font-family: 'Pacifico', cursive;   
+    color: #ee7560; 
+}
+#testo p {
+    padding: 0 0 20px 0;
+}
+
+/* /TESTO */
+
+    
+/* vantaggi */
+#vantaggi {
+    background-color: #f8f3f0;
+    padding: 100px 50px 100px 50px;
+}
+#vantaggi .flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+#vantaggi .flex-container .flex-item {
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+#vantaggi .flex-container .flex-item h2 {
+    padding: 0 0 10px 0;
+    font-family: 'Pacifico', cursive;   
+    color: #ee7560; 
+}
+
+
+/* form */
+#form {
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 100px 50px 100px 50px;
+}
+#form h2 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    font-family: 'Pacifico', cursive;   
+    color: #ee7560;
+    font-size: 40px;
+}
+#form .flex-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#form .flex-form div {
+    background: #fff;
+    padding: 20px;
+    width: 33.3%;
+    text-align: center;
+}
+#form .flex-form div label {
+    text-align: left;
+    font-size: 14px;
+    padding: 0 15px 5px;
+    display: block;
+}
+#form .flex-form div.textareaDiv {
+    width: 100%;
+}
+#form .flex-form div.radioDiv {
+    width: 100%;
+    text-align: left;
+}
+#form .flex-form div.radioDiv p {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 15px 5px;
+}
+#form .flex-form div.radioDiv label, #form .flex-form div.radioDiv input  {
+    display: inline-block;
+}
+#form #nome, #form #email, #form select {
+    width: 100%;
+    display: block;
+    outline: none;
+    background: #FAFAFA;
+    min-height: 50px;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;        
+    font-family: 'Exo 2', sans-serif;    
+}
+#form #testoForm {
+    width: 100%;
+    display: block;
+    outline: none;
+    appearance: none;
+    background: #FAFAFA;
+    min-height: 100px;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;      
+    resize: none;   
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+/* footer */
+footer {
+    background: #000;
+    color: #fff;
+    padding: 100px 50px;
+    text-align: center;
+    font-size: 12px;
+}
+footer a {
+    
+    color: #fff;
+    
+}
+
+@media only screen and (max-width: 990px) {
+    body {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    header img {
+        width: 100px;
+        height: auto;
+    }
+    #testo {
+        padding: 50px 20px;
+    }
+    #testo h1 {
+        font-size: 30px;
+        line-height: 50px;
+        padding: 0 0 10px 0;
+    }
+    #vantaggi {
+        background-color: #f8f3f0;
+        padding: 50px 20px;
+    }
+
+    #form {
+        padding: 50px 20px;
+    }
+    #form h2 {
+        font-size: 30px;
+        padding: 0 0 10px;
+    }
+    #form .flex-form div {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    footer {
+        padding: 50px 10px;
+    }
+ }
